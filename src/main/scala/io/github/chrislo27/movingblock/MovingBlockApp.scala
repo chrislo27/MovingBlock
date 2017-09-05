@@ -34,10 +34,10 @@ class MovingBlockApp extends Application {
     primaryStage.show()
   }
 
-  object MovingBlockApp {
+}
 
-    def main(args: Array[String]): Unit = Application.launch(classOf[MovingBlockApp])
+object MovingBlockApp {
 
-  }
+  def main(args: Array[String]): Unit = Application.launch(classOf[MovingBlockApp])
 
 }
